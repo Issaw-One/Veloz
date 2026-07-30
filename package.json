@@ -1,9 +1,13 @@
 {
   "name": "VelozLauncher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "productName": "Veloz Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), Issaw (https://github.com/Issaw-One)",
+  "author": {
+  "name": "Issaw",
+  "email": "issaw@tutanota.com",
+  "url": "https://github.com/Issaw-One"
+},
   "license": "UNLICENSED",
   "homepage": "https://github.com/Issaw-One/Veloz",
   "bugs": {
