@@ -1,6 +1,6 @@
 {
   "name": "VelozLauncher",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "productName": "Veloz Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/), Issaw (https://github.com/Issaw-One)",
@@ -22,13 +22,35 @@
   "build": {
   "appId": "com.issaw.veloz",
   "productName": "Veloz Launcher",
+
   "publish": [
     {
       "provider": "github",
       "owner": "Issaw-One",
       "repo": "Veloz"
     }
-  ]
+  ],
+
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  },
+
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ]
+  },
+
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "category": "Game"
+  }
 },
   "engines": {
     "node": "22.x.x"
